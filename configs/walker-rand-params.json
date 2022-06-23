@@ -1,0 +1,23 @@
+{
+    "env_name": "walker-rand-params",
+    "n_train_tasks": 80,
+    "n_eval_tasks": 20,
+    "env_params": {
+        "n_tasks": 100
+    }
+    ,
+    "algo_params": {
+        "meta_batch": 10,
+        "no": true,
+        "num_initial_steps": 2000,
+        "num_steps_prior": 400,
+        "num_iterations": 750,
+        "num_steps_consec": 600,
+        "num_train_steps_per_itr": 4000,
+        "num_evals": 2,
+        "num_steps_per_eval": 600,
+        "num_exp_traj_eval": 2,
+        "embedding_batch_size": 100,
+        "embedding_mini_batch_size": 100 
+    }
+}
